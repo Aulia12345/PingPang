@@ -1,0 +1,151 @@
+.header {
+    position: fixed;
+    height: auto;
+    padding: 0 50px;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -18px;
+}
+
+.linknavbar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.textlink {
+    color: #fbb040;
+    padding: 0px 5px;
+    font-size: 17px;
+}
+
+.textlink:hover {
+    background-color: #fbb040;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0px 5px;
+}
+
+.textlink:active {
+    background-color: #fbb040;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0px 5px;
+}
+
+/* collapse */
+.menu-bread {
+    padding: 10px;
+    width: auto;
+}
+
+.mobileVisible {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1128px) {
+    .pricingBlock .ant-row>div:nth-child(2) .ant-list-item {
+        transform: scale(1);
+    }
+
+    .ant-collapse-header {
+        width: 380px;
+    }
+
+    .head-container {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        height: auto;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        padding: 0px 24px;
+    }
+
+    .mobileVisible {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .ant-collapse-header {
+        width: 100%;
+    }
+
+    .brand {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+
+        width: auto;
+        height: 32px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .btn-bread {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        color: #fbb040;
+        background-color: #fff;
+        width: 32px;
+        height: 32px;
+        border: 1px solid #004aad;
+        border-radius: 6px;
+        align-items: center;
+        box-sizing: border-box;
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .btn-bread:hover {
+        background-color: #fbb040 !important;
+        color: #004aad !important;
+    }
+
+    .logo-image {
+        float: left;
+        width: 80px;
+        height: 40px;
+        margin: 0px 10px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .textcollapse {
+        color: #fbb040;
+        font-size: 17px;
+        margin: 0%;
+    }
+
+}

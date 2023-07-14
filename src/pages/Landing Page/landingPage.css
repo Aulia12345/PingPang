@@ -1,0 +1,292 @@
+.BODY {
+    margin: 0%;
+}
+
+.cover {
+    background-image: linear-gradient(5deg, #aee6ff 0, #5389f2 50%, #01356a 100%);
+    width: 100%;
+}
+
+.subcover {
+    padding: 120px 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: -150px;
+
+}
+
+.judul {
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+.logojudul {
+    width: 300px;
+    height: 100px;
+    margin-bottom: -30px;
+}
+
+.judul1 {
+    font-size: 70px;
+    font-weight: bold;
+    width: 500px;
+    color: #fbb040;
+}
+
+.judul2 {
+    font-size: 35px;
+    font-weight: normal;
+    text-shadow: -4px 4px 3px rgba(0, 0, 0, 0.6);
+}
+
+.produk {
+    width: 380px;
+    height: 550px;
+    -webkit-transform-rotate: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.bubble {
+    background-color: #004aad;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    margin-bottom: -350px;
+    margin-left: -150px;
+}
+
+.coral {
+    width: 200px;
+    height: 250px;
+    margin-bottom: -185px;
+}
+
+.wave {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.description {
+    padding: 60px 79px;
+    max-width: 100%;
+}
+
+.produkdesc {
+    width: 380px;
+    height: 550px;
+    z-index: 1;
+}
+
+.desc {
+    font-size: 25px;
+    width: 700px;
+    text-align: justify;
+    color: #01356a;
+    font-weight: bold;
+}
+
+.line,
+.line2 {
+    background-color: #fbb040;
+    width: 500px;
+    height: 5px;
+}
+
+.bubble2 {
+    background-color: #004aad;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-top: -150px;
+    margin-left: 150px;
+    z-index: 0;
+}
+
+.bubble3 {
+    background-color: #004aad;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+
+.bubble4 {
+    background-color: #fbb040;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 80px;
+}
+
+.manfaat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 79px;
+    width: 100%;
+}
+
+.coralicon {
+    width: 60px;
+    height: 70px;
+    margin-right: -740px;
+}
+
+.judulmanfaat {
+    font-size: 40px;
+    color: #01356a;
+    font-weight: bold;
+    margin-bottom: -40px;
+}
+
+.teripang {
+    width: 650px;
+    height: 400px;
+    margin-top: 40px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.Collapse {
+    margin-top: 0px;
+}
+
+.collapse {
+    background-color: white;
+    font-size: 17px;
+    width: 900px;
+}
+
+.health {
+    width: 200px;
+    height: 150px;
+}
+
+.textdesc {
+    text-align: justify;
+    width: 820px;
+}
+
+.CARD {
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .subcover {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: -150px;
+    }
+
+
+    .logojudul {
+        max-width: 45%;
+        max-height: 35%;
+        margin-bottom: -50px;
+    }
+
+    .produkk {
+        margin-top: -80px;
+        margin-left: 50px;
+    }
+
+    .judul1 {
+        font-size: 4em;
+    }
+
+    .judul2 {
+        font-size: 30px;
+    }
+
+    .coral {
+        width: 200px;
+        height: 250px;
+        margin-bottom: -109px;
+    }
+
+    .PRODDESC {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 100px;
+
+    }
+
+    .produkdesc,
+    .produk {
+        width: 280px;
+        height: 450px;
+    }
+
+    .descc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .desc {
+        font-size: 19px;
+        width: 100%;
+    }
+
+    .judulmanfaat {
+        font-size: 35px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .line2 {
+        width: 600px !important;
+    }
+
+    .coralicon {
+        width: 60px;
+        height: 70px;
+        margin-right: -480px;
+    }
+
+    .teripang {
+        width: 350px;
+        height: 200px;
+    }
+
+    .textdesc {
+        width: 100%;
+    }
+
+    .Collapse {
+        display: none;
+    }
+
+    .CARD {
+        display: block;
+    }
+
+    .manfaat {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

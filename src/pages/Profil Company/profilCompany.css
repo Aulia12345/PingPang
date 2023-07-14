@@ -1,0 +1,63 @@
+.BODY {
+    width: 100%;
+    color: #004aad;
+}
+
+.desc-company {
+    padding: 120px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: -150px;
+}
+
+.vismis {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.judulvismis {
+    font-size: 30px;
+    text-align: center;
+    color: #004aad;
+}
+
+.cardvismis {
+    display: flex;
+    gap: 40px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border-color: #fbb040;
+    ;
+    box-shadow: 0px 0px 10px 0px #000;
+    border-radius: 40px;
+    border-width: 3px;
+    margin-top: 40px;
+    transition: transform .5s ease;
+    overflow: hidden;
+}
+
+.judul5 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #004aad;
+    text-shadow: -4px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.text {
+    text-align: justify;
+    color: #004aad;
+}
